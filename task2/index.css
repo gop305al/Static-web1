@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-container {
+    width: 100%;
+    background:black;          
+    padding: 15px 0;
+}
+
+
+.top-container .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+    gap: 200px;                 
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+}
+
+
+.navbar a:hover {
+    color: #ffcc00;            
+    background-color: #fff;   
+}
+
+.header{
+    border: 2px solid;
+    height: 375px;
+    background-image: url("../chicago.jpg");
+
+
+}
+.time{
+    /* border: 2px solid red; */
+   color: #fff;
+    width: 200px;
+    margin-top: 330px;
+    padding-left: 20px;
+}
+.time1{
+    /* border: 2px solid blue; */
+    width: 100px;
+    color: white;
+    font-size: 45px;
+    padding-left: 500px;
+    margin-top: -300px;
+    height: 300px;
+    line-height: 100px;
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+.time2{
+    /* border: 2px solid; */
+    color: white;
+    width: 200px;
+    padding-left: 1000px;
+    margin-top: -20px;
+}
+
+.about-container{
+    text-align: center;
+    padding-left:200px ;
+    margin-top: 75px;
+    line-height: 20px;
+    line-height: 30px;
+
+}
+
+.the-cafe{
+    border: 2px solid;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.p1{
+    margin-top: 100px;
+    text-align: left;
+}
+.p2{
+    margin-top: 30px;
+    text-align: left;
+}
+.p3{
+    text-align: left;
+}
+.panel{
+    margin-top: 20px;
+    width: 570px;
+    word-spacing: 10px;
+    text-align: left;
+    /* border: 2px solid; */
+    background-color: rgba(225, 225, 225, 0.869);
+
+}
+
+.coffee-img{
+    margin-top: 50px;
+}
+
+.menu-box{
+    width: 50%;
+    align-items: center;
+    padding-left: 250px;
+    line-height: 50px;
+
+}
+
+.h1{
+    border: 2px solid;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 50%;
+    background-color: black;
+    color: #fff;
+}
+
+#tab-eat,
+#tab-drink {
+    display: none;
+}
+
+.menu-tabs {
+  display: flex;
+  background: #ddd;
+  box-shadow: 8px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-tab {
+  flex: 1;
+  padding: 14px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  background: #ddd;
+  transition: 0.3s;
+}
+
+.menu-tab:hover {
+  background: #53d628;
+}
+
+#tab-eat:checked ~ .menu-tabs label[for="tab-eat"],
+#tab-drink:checked ~ .menu-tabs label[for="tab-drink"] {
+   background: #777;
+   color: #fff;
+}
+
+.menu-content {
+  display: none;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+#tab-eat:checked ~ #eat-content {
+  display: block;
+}
+
+#tab-drink:checked ~ #drink-content {
+    display: block;
+}
+
+.img{
+    max-width: 100%;
+    margin-top: 40px;
+}
